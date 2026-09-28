@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptexra1n script</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="directory-container">
+        <h1 style="display: flex; align-items: center; justify-content: center; gap: 15px; color: turquoise; font-weight: bold; margin-bottom: 20px;">
+    Welcome to cryptexra1n 
+    <img src="profile.png" alt="CX1 Logo" style="height: 45px; width: auto; border-radius: 4px;">
+</h1>
+
+        
+        <h2>Pwning script for stormra1n IV </h2>
+        
+        <h4 style="text-align: center; font-weight: bold;"> By: <a href="https://youtube.com/@checkra1n-Team" style="color: red; text-decoration: none;">@checkra1n-Team</a> </h4>
+        
+        <h4 id="status-text">Status: Not pwned</h4>
+        
+        <h5 style="color: red;">DO NOT RELOAD PAGE AFTER PWN</h5>
+
+        <button id="pwn-button">Start pwn</button>
+
+        <hr style="border: 0; border-top: 1px solid rgba(0, 190, 255, 0.2); margin: 30px 0;">
+
+        <h4 style="color: turquoise; font-weight: bold;"> Instructions </h4>
+        <ol style="padding-left: 20px; text-align: left; color: white;">
+            <li style="font-weight: bold; margin-bottom: 10px;">To pwn, click "Start pwn"</li>
+            <li style="font-weight: bold; margin-bottom: 10px;">Press "ok" at the top of your browser</li>
+            <li style="font-weight: bold; margin-bottom: 10px;">Then visit: <a href="https://stormra1n.xo.je" style="color: turquoise; text-decoration: none;">stormra1n</a></li>
+        </ol>
+
+        <hr style="border: 0; border-top: 1px solid rgba(0, 190, 255, 0.2); margin: 30px 0;">
+
+        <h4 style="color: turquoise; font-weight: bold;"> How does this work ? </h4>
+        <p style="color: white; font-weight: bold; text-align: left; padding: 0 10px; line-height: 1.5; font-size: 14px;">
+            First, the name of this swapping technique is called "Session-Auth-Exploit" This tool swaps and modifies your session token with the one of the YouTube Handle you report right after on stormra1n. This does all the patching in the backround and you wont notice anything. Since stormra1n IV can pre-patch, the Token swapping is simple and fluid. And because stormra1n IV is running the swapped token, YouTube cannot patch this without adding a extra layer of security. This in all is much more effective and has a higher success rate than the standard OAuth Exploits.
+        </p>
+
+        <hr style="border: 0; border-top: 1px solid rgba(0, 190, 255, 0.2); margin: 30px 0;">
+
+        <h4 style="font-weight: bold; margin-bottom: 15px;"> Other (ATCBP Members) </h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/@isaackingvideos" style="color: red; text-decoration: none; font-weight: bold;">@isaackingvideos</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCq4G8SzY6Imb-qrtpW5sN6A" style="color: red; text-decoration: none; font-weight: bold;">@VEXOO_LE</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCtMOb1xVDH0yTUQbx6rS65Q" style="color: red; text-decoration: none; font-weight: bold;">@too-riski</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCrGaHSudtoyj5uEzRu_sWDA" style="color: red; text-decoration: none; font-weight: bold;">@baconlovestech123</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UC8I8__YLi-evyfz59t1LLzg" style="color: red; text-decoration: none; font-weight: bold;">@Meowzu_tech</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCASF_R0yw1hX2K6ZEZW7z9w" style="color: red; text-decoration: none; font-weight: bold;">@Lol99880TECH</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCVLd0CSEJjoyVQAEwmWgUDg" style="color: red; text-decoration: none; font-weight: bold;">@rakan-o4n</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UC6-1qJfaULjc1w2d-9UeiAg" style="color: red; text-decoration: none; font-weight: bold;">@BoomlolTech</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UCaf81W1qAcbtO-zNPGFJ0Kg" style="color: red; text-decoration: none; font-weight: bold;">@AdmTech236</a></li>
+            <li style="margin-bottom: 8px;"><a href="https://www.youtube.com/channel/UC7Q2kspgVQV2tWgCaFFRw0w" style="color: red; text-decoration: none; font-weight: bold;">@romancatholic-ec2</a></li>
+        </ul>
+
+        <hr style="border: 0; border-top: 1px solid rgba(0, 190, 255, 0.2); margin: 30px 0;">
+
+        <h5 style="margin-bottom: 5px;"> THIS IS A RA1N EXCLUSIVE </h5>
+        <h5 style="margin-top: 0;"> THIS SOFTWARE IS THE PROPERTY OF RA1N Groups </h5>
+    </div>
+
+    <script>
+        const statusText = document.getElementById('status-text');
+        const pwnButton = document.getElementById('pwn-button');
+
+        pwnButton.addEventListener('click', () => {
+            alert('Session Token has been successfully pwned!');
+            statusText.textContent = 'Status: Successfully pwned';
+        });
+    </script>
+</body>
+</html>
